@@ -233,7 +233,7 @@ function Block5() {
 
 function List1() {
   return (
-    <div className="content-stretch flex font-['SF_Pro_Text:Medium',sans-serif] gap-[20px] items-start leading-[1.6] relative shrink-0 text-[14px]" data-name="list">
+    <div className="content-stretch flex font-['Montserrat:SemiBold',sans-serif] gap-[20px] items-start leading-[1.6] relative shrink-0 text-[14px]" data-name="list">
       <p className="relative shrink-0 text-[#878a83]">En</p>
       <p className="relative shrink-0 text-[#878a83]">Es</p>
       <p className="relative shrink-0 text-[#878a83]">Fr</p>
@@ -246,7 +246,7 @@ function List1() {
 function Languages() {
   return (
     <div className="content-stretch flex flex-col gap-[15px] items-end relative shrink-0" data-name="languages">
-      <p className="font-['SF_Pro_Text:Semibold',sans-serif] leading-[1.4] relative shrink-0 text-[#0f2301] text-[12px] text-right">Languages</p>
+      <p className="font-['Montserrat:SemiBold',sans-serif] leading-[1.4] relative shrink-0 text-[#0f2301] text-[12px] text-right">Languages</p>
       <List1 />
     </div>
   );
