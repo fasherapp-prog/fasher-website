@@ -1,16 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
-
 @font-face {
-  font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-Light.otf') format('opentype');
-  font-weight: 300;
+  font-family: 'Gilroy:ExtraBold';
+  src: url('../fonts/Gilroy-ExtraBold.otf') format('opentype');
+  font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-ExtraBold.otf') format('opentype');
-  font-weight: 800;
+  font-family: 'Gilroy:Light';
+  src: url('../fonts/Gilroy-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat:Bold';
+  src: url('../fonts/Montserrat-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat:SemiBold';
+  src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF_Pro_Text:Medium';
+  src: local('SF Pro Text Medium'), local('.SFNSText-Medium'), local('HelveticaNeue-Medium');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF_Pro_Text:Semibold';
+  src: local('SF Pro Text Semibold'), local('.SFNSText-Semibold'), local('HelveticaNeue-Medium');
+  font-weight: normal;
   font-style: normal;
 }
 
