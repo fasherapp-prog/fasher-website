@@ -1,3 +1,5 @@
+@import './carousel.css';
+
 @font-face {
   font-family: 'Gilroy:ExtraBold';
   src: url('../fonts/Gilroy-ExtraBold.otf') format('opentype');
@@ -28,16 +30,14 @@
 
 @font-face {
   font-family: 'SF_Pro_Text:Medium';
-  src: local('SF Pro Text Medium'), local('.SFNSText-Medium'), local('HelveticaNeue-Medium');
+  src: local('SF Pro Text Medium'), local('.SFNSText-Medium'), local('HelveticaNeue-Medium'), local('Arial');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'SF_Pro_Text:Semibold';
-  src: local('SF Pro Text Semibold'), local('.SFNSText-Semibold'), local('HelveticaNeue-Medium');
+  src: local('SF Pro Text Semibold'), local('.SFNSText-Semibold'), local('HelveticaNeue-Medium'), local('Arial');
   font-weight: normal;
   font-style: normal;
 }
-
-@import './carousel.css';
