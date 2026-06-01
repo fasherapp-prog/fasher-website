@@ -26,7 +26,7 @@ jobs:
           node-version: 22
           cache: pnpm
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --allow-build=@tailwindcss/oxide,esbuild,sharp
       - name: Build
         run: pnpm build
       - uses: actions/upload-pages-artifact@v3
